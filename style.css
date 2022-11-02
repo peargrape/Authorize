@@ -1,0 +1,158 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  body {
+    margin: 0 auto;
+    
+  }
+
+header {
+    display: flex;
+    margin-top: 50px;
+    align-items:center;
+}
+
+header img {
+    margin-left: 100px;
+    height: 40px;
+}
+
+header select {
+    border: none;
+    margin-right: 40px;
+    width: 84px;
+    height: 48px;
+    padding: 15px 8px;
+}
+
+h1 {
+    color: #00BA2C;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+
+header a  {
+    flex: 5;
+    text-align: center;
+    width: 160px;
+    margin: 30px auto;
+}
+
+main {
+    
+    text-align: center;
+    width: 432px;
+    margin: 0 auto;
+    font-weight: 500;
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat (2, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 100%;
+    grid-template-areas: 
+        "eml eml"
+        "pswd pswd"
+        "lgn sgn";
+    justify-content: space-between;
+    
+}
+
+.email {
+    grid-area: eml;
+}
+
+#mail, #pwd {
+    width: 100%;
+    height: 56px;
+    border-radius: 16px;
+    border: 2px solid #404040;
+}
+
+.password {
+    grid-area: pswd;
+}
+
+.login {
+    grid-area: lgn;
+    background: #404040;
+    color: #FFFFFF;
+    border: none;
+}
+
+.signin {
+    grid-area: sgn;
+    color: #00BA2C;
+    background: none;
+    border: 2px solid #00BA2C;
+    margin-right: -8px;
+}
+.restore {
+    grid-area: rstr;
+}
+
+.login, .signin {
+    width: 204px;
+    height: 56px;
+    border-radius: 16px;
+    
+}
+
+.socnet {
+    margin: 24px 0 80px;
+}
+
+.socnet img {
+    margin: 12px;
+    width: 40px;
+}
+
+::placeholder {
+    padding: 18px 16px;
+    font-size: 16px;
+}
+
+button {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    height: 100px;
+    width: 100%;
+    font-weight: 400;
+    background-color: #404040;
+}
+
+footer p {
+    color: #FFFFFF;
+}
+
+.diliapi img {
+    margin-left: 40px;
+    height: 40px;
+    border: 1px solid magenta;
+}
+
+.logos {
+    margin-right: 40px;
+}
+
+.yt {
+    margin-right: 24px;
+}

@@ -1,0 +1,14 @@
+const Header: () => JSX.Element = () => {
+  return (
+    <header className={styles.root}>
+      <a href="#">
+        <img src={diliapiTitle} alt="DiliAPI logo" />
+      </a>
+      <SelectLabels />
+>>>>>>> Stashed changes
+    </header>
+  );
+};
+
+import diliapiTitle from './img/logo-title.png';
+import { SelectLabels } from './components/MuiSelect';
